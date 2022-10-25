@@ -23,6 +23,28 @@ public class Main {
         }
         System.out.println(sum);
 
+        //WHILE
+        int sumWhile = 0;
+        int iWhile = 0;
+        while (iWhile <= 150) {
+            if (iWhile % 5 == 0) {
+                sumWhile += iWhile;
+            }
+            iWhile++;
+        }
+        System.out.println(sumWhile);
+
+        //DOWHILE
+        int iDoWhile = 0;
+        int sumDoWhile = 0;
+        do {
+            if (iDoWhile % 5 == 0) {
+                sumDoWhile += iDoWhile;
+            }
+            iDoWhile++;
+
+        } while (iDoWhile <= 150);
+        System.out.println(sumDoWhile);
         //TASK 2
         int n = 6;
 
